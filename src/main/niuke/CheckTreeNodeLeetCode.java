@@ -27,8 +27,6 @@ public class CheckTreeNodeLeetCode {
         if (root == null) {
             return true;
         }
-
-
         boolean res = isValidBST(root.left);
 
         //说明左子树正确
