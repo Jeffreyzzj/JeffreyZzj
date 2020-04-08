@@ -21,14 +21,25 @@ public class TestStudy {
 
         //Integer[] array = {0, 1, 2, 3, 3, 4, 5, null, null, 10, null, null, 7, 8};
 
-        PriorityQueue<ListNode> pq = new PriorityQueue<>(new Comparator<ListNode>() {
-            @Override
-            public int compare(ListNode o1, ListNode o2) {
-                return o1.val - o2.val;
+        int[][] matrix = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}};
+        int len = matrix.length;
+        for (int i = 0; i < len / 2; i++) {
+            int start = i;
+            int end = len - i - 1;
+            for (int j = 0; j < end - start; j++) {
+                int temp = matrix[start][start + j];
+                matrix[start][start + j] = matrix[end - j][start];
+                matrix[end - j][start] = matrix[end][end - j];
+                matrix[end][end - j] = matrix[start + j][end];
+                matrix[start + j][end] = temp;
             }
-        });
+        }
 
-        leetCodeDeleteOneNode();
+        System.out.println("---");
+        //leetCodeDeleteOneNode();
 
     }
 

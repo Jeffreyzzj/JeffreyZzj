@@ -68,6 +68,9 @@ public class TreeNode {
         }
         return treeNode;
     }
+    public static TreeNode createTreeNode(Integer[] arrayNodes) {
+        return createTreeNode(arrayNodes, 0);
+    }
 
     /**
      * @param root
