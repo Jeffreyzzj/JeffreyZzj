@@ -15,4 +15,13 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
+    public static ListNode createListNode(Integer[] arrays) {
+        ListNode root = new ListNode();
+        ListNode head = root;
+        for (Integer array : arrays) {
+            head.next = new ListNode(array);
+            head = head.next;
+        }
+        return root.next;
+    }
 }

@@ -17,6 +17,64 @@ import java.util.stream.Stream;
  */
 public class TestStudy {
     public static void main(String[] args) {
+        Integer[] arrays = {0, 1, 2};
+        ListNode listNode = ListNode.createListNode(arrays);
+        ListNode rootNode = rotateRight(listNode, 4);
+        //ListNode rootNode = answer(listNode, 2);
+        System.out.println("===");
+    }
+
+    public static ListNode answer(ListNode head, int k) {
+        if(head==null||k==0){
+            return head;
+        }
+        ListNode cursor=head;
+        ListNode tail=null;//尾指针
+        int length=1;
+        while(cursor.next!=null)//循环 得到总长度
+        {
+            cursor=cursor.next;
+            length++;
+        }
+        int a = k%length;
+        int loop=length-a;//得到循环的次数
+        tail=cursor;//指向尾结点
+        cursor.next=head;//改成循环链表
+        cursor=head;//指向头结点
+        for(int i=0;i<loop;i++){//开始循环
+            cursor=cursor.next;
+            tail=tail.next;
+        }
+        tail.next=null;//改成单链表
+        return cursor;//返回当前头
+    }
+
+    public static ListNode rotateRight(ListNode head, int k) {
+        if (head==null || k==0) {
+            return head;
+        }
+        //获得链表长度
+        int count = 1;
+        ListNode root = head;
+        while (root.next!=null) {
+            count++;
+            root = root.next;
+        }
+        //链表变环
+        root.next = head;
+        root = root.next;
+
+        k = k%count;
+
+        for (int i=1; i<count-k; i++) {
+            root = root.next;
+        }
+        head = root.next;
+        root.next = null;
+        return head;
+    }
+
+    public static void studyOther() {
         //int[] array = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
 
         //Integer[] array = {0, 1, 2, 3, 3, 4, 5, null, null, 10, null, null, 7, 8};
@@ -40,7 +98,6 @@ public class TestStudy {
 
         System.out.println("---");
         //leetCodeDeleteOneNode();
-
     }
 
     public static void leetCodeDeleteOneNode() {

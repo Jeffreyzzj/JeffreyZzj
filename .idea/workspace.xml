@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e163a284-14f9-46d6-90e3-8eeee8e9592a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/CheckTreeNodeLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/niuke/CheckTreeNodeLeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/otherStudy/TestStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/otherStudy/TestStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sort/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sort/ListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CombineNListNode">
+  <component name="RunManager" selected="Application.TestStudy">
     <configuration name="ArrayAllSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.niuke.ArrayAllSort" />
       <module name="java-code-study" />
@@ -131,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStudy" />
         <item itemvalue="Application.CombineNListNode" />
         <item itemvalue="Application.ArrayAllSort" />
-        <item itemvalue="Application.TestStudy" />
         <item itemvalue="Application.PhoneNumberCombine" />
         <item itemvalue="Application.StringToElementZ" />
       </list>
@@ -166,6 +166,7 @@
       <workItem from="1585461577475" duration="4399000" />
       <workItem from="1585476923812" duration="59377000" />
       <workItem from="1586352494058" duration="214000" />
+      <workItem from="1586432591863" duration="8746000" />
     </task>
     <servers />
   </component>
@@ -177,7 +178,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -248,12 +251,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>119</line>
+          <line>176</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>121</line>
+          <line>178</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -273,12 +276,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>56</line>
+          <line>113</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -295,6 +293,26 @@
           <url>file://$PROJECT_DIR$/src/main/niuke/CombineNListNode.java</url>
           <line>37</line>
           <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
