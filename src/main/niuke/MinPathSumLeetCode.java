@@ -1,5 +1,8 @@
 package main.niuke;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @program: java-code-study
  * @description: 最小路径和
@@ -10,6 +13,8 @@ package main.niuke;
 public class MinPathSumLeetCode {
     public static void main(String[] args) {
         preMinPath();
+        //List<ArrayListWrapper> list = new ArrayList<ArrayList>();
+
     }
 
     public static int preMinPath() {
