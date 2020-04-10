@@ -14,12 +14,10 @@ public class DPQuestionPackage {
     }
     public static int pre() {
         int[][] things = new int[][]{
-                {2,3},
-                {1,2},
-                {3,4},
-                {2,2}
+                {2,6},{2,3},{6,5},{5,4},{4,6}
+                /*{2,3}, {1,2}, {3,4}, {2,2}*/
         };
-        int res = packageQuestion(things, 5);
+        int res = packageQuestion(things, 8);
         System.out.println("===");
         return res;
     }

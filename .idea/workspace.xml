@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e163a284-14f9-46d6-90e3-8eeee8e9592a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +165,7 @@
       <workItem from="1585461577475" duration="4399000" />
       <workItem from="1585476923812" duration="59377000" />
       <workItem from="1586352494058" duration="214000" />
-      <workItem from="1586432591863" duration="16520000" />
+      <workItem from="1586432591863" duration="16799000" />
     </task>
     <servers />
   </component>
@@ -332,28 +331,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
-          <line>45</line>
+          <line>46</line>
           <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="150" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
