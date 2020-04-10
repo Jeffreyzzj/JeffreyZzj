@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e163a284-14f9-46d6-90e3-8eeee8e9592a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/niuke/MinPathSumLeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,6 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -62,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinPathSumLeetCode">
+  <component name="RunManager" selected="Application.DPQuestionPackage">
     <configuration name="ArrayAllSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.niuke.ArrayAllSort" />
       <module name="java-code-study" />
@@ -89,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPathSumLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.niuke.MinPathSumLeetCode" />
+    <configuration name="DPQuestionPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.niuke.DPQuestionPackage" />
       <module name="java-code-study" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumberCombine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.niuke.PhoneNumberCombine" />
+    <configuration name="MinPathSumLeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.niuke.MinPathSumLeetCode" />
       <module name="java-code-study" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DPQuestionPackage" />
         <item itemvalue="Application.MinPathSumLeetCode" />
         <item itemvalue="Application.TestStudy" />
         <item itemvalue="Application.CombineNListNode" />
         <item itemvalue="Application.ArrayAllSort" />
-        <item itemvalue="Application.PhoneNumberCombine" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +166,7 @@
       <workItem from="1585461577475" duration="4399000" />
       <workItem from="1585476923812" duration="59377000" />
       <workItem from="1586352494058" duration="214000" />
-      <workItem from="1586432591863" duration="12860000" />
+      <workItem from="1586432591863" duration="16520000" />
     </task>
     <servers />
   </component>
@@ -328,6 +329,31 @@
           <url>file://$PROJECT_DIR$/src/main/niuke/MinPathSumLeetCode.java</url>
           <line>38</line>
           <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
