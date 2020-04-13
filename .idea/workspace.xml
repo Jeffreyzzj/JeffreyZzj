@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e163a284-14f9-46d6-90e3-8eeee8e9592a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/codeStudy/ChangTingKeJiLogProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/codeStudy/NodeHasCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/codeStudy/SpiralMatrixLeetCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/ArrayAllSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/ArrayAllSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/CheckTreeNodeLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/CheckTreeNodeLeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/CombineNListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/CombineNListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/ConversionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/ConversionArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/DPQuestionPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/DPQuestionPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/DynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/DynamicProgramming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/FindPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/FindPrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/FindSingleAndDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/FindSingleAndDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/GuPiaoBuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/GuPiaoBuy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/MinPathSumLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/MinPathSumLeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/PhoneNumberCombine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/PhoneNumberCombine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/ReverseBetweenListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/ReverseBetweenListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/SortArrayFindNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/SortArrayFindNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/StringToElementZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/StringToElementZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/TheNedSmall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/TheNedSmall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/TwoListCompareElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/TwoListCompareElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/WangyiShenQiShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/WangyiShenQiShu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/niuke/WaterMaxArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/WaterMaxArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/codeStudy/CombineNListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/CombineNListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/codeStudy/NodeHasCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/NodeHasCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/codeStudy/ReverseBetweenListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/ReverseBetweenListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/otherStudy/TestStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/otherStudy/TestStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sort/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sort/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sort/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sort/SingleNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +177,7 @@
       <workItem from="1585461577475" duration="4399000" />
       <workItem from="1585476923812" duration="59377000" />
       <workItem from="1586352494058" duration="214000" />
-      <workItem from="1586432591863" duration="32270000" />
+      <workItem from="1586432591863" duration="36605000" />
     </task>
     <servers />
   </component>
@@ -280,12 +262,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>178</line>
+          <line>184</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>180</line>
+          <line>186</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -305,7 +287,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>115</line>
+          <line>121</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -325,17 +307,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>75</line>
+          <line>81</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>40</line>
+          <line>46</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>68</line>
+          <line>74</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -396,7 +378,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>25</line>
+          <line>31</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
       </breakpoints>
@@ -406,7 +388,7 @@
     <SUITE FILE_PATH="coverage/java_code_study$WangyiShenQiShu.ic" NAME="WangyiShenQiShu Coverage Results" MODIFIED="1578241584471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.niuke.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/java_code_study$TestStudy.ic" NAME="TestStudy Coverage Results" MODIFIED="1586163570013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/java_code_study$TestStudy.ic" NAME="TestStudy Coverage Results" MODIFIED="1586772057098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.otherStudy.*</FILTER>
     </SUITE>
   </component>

@@ -1,6 +1,6 @@
 package main.codeStudy;
 
-import main.sort.ListNode;
+import main.sort.SingleNode;
 
 /**
  * @program: java-code-study
@@ -11,10 +11,10 @@ import main.sort.ListNode;
 public class NodeHasCircle {
     public static void main(String[] args) {
         Integer[] arrays = {1,2,3,4,5,6,7,8,9};
-        ListNode root = ListNode.createListNode(arrays);
+        SingleNode root = SingleNode.createListNode(arrays);
         //创建环
-        ListNode head = root;
-        ListNode mid = root;
+        SingleNode head = root;
+        SingleNode mid = root;
         for (int i=0; i<arrays.length; i++) {
             if (i==5) {
                 mid = head;
@@ -25,8 +25,8 @@ public class NodeHasCircle {
             }
         }
 
-        ListNode slow = root.next;
-        ListNode fast = slow.next;
+        SingleNode slow = root.next;
+        SingleNode fast = slow.next;
 
         boolean hasCircle = false;
         while (fast!=null || slow!=null) {

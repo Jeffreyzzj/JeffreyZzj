@@ -1,12 +1,10 @@
 package main.otherStudy;
 
-import main.sort.ListNode;
+import main.sort.SingleNode;
 import main.sort.TreeNode;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.PriorityQueue;
 import java.util.stream.Stream;
 
 /**
@@ -17,21 +15,29 @@ import java.util.stream.Stream;
  */
 public class TestStudy {
     public static void main(String[] args) {
-        testReverseListNode();
+        testListNode();
     }
-    public static void testReverseListNode() {
+    public static void testListNode() {
         Integer[] arrays = {1,2,3,4,5};
-        ListNode root = ListNode.createListNode(arrays);
-        root = ListNode.reverseListNode(root);
+        SingleNode root = SingleNode.createListNode(arrays);
+
+        //部分转换
+        //SingleNode partNode = SingleNode.reverseListNode(root, 1, 5);
+        //全部转换
+        //SingleNode allNode = SingleNode.reverseListNode(root);
+
+        //向后移动位
+        SingleNode res = SingleNode.moveListNode(root, 5);
+
         System.out.println();
     }
 
-    public static ListNode answer(ListNode head, int k) {
+    public static SingleNode answer(SingleNode head, int k) {
         if(head==null||k==0){
             return head;
         }
-        ListNode cursor=head;
-        ListNode tail=null;//尾指针
+        SingleNode cursor=head;
+        SingleNode tail=null;//尾指针
         int length=1;
         while(cursor.next!=null)//循环 得到总长度
         {
@@ -51,13 +57,13 @@ public class TestStudy {
         return cursor;//返回当前头
     }
 
-    public static ListNode rotateRight(ListNode head, int k) {
+    public static SingleNode rotateRight(SingleNode head, int k) {
         if (head==null || k==0) {
             return head;
         }
         //获得链表长度
         int count = 1;
-        ListNode root = head;
+        SingleNode root = head;
         while (root.next!=null) {
             count++;
             root = root.next;
@@ -103,18 +109,18 @@ public class TestStudy {
     }
 
     public static void leetCodeDeleteOneNode() {
-        ListNode head = new ListNode(1);
-        ListNode head2 = new ListNode(2);
+        SingleNode head = new SingleNode(1);
+        SingleNode head2 = new SingleNode(2);
         head.next = head2;
         deleteOneNode(head, 2);
         System.out.println("====");
     }
 
-    public static ListNode deleteOneNode(ListNode head, int n) {
+    public static SingleNode deleteOneNode(SingleNode head, int n) {
         if (head==null) {
             return null;
         }
-        List<ListNode> resList = new ArrayList<>();
+        List<SingleNode> resList = new ArrayList<>();
         while (head != null) {
             resList.add(head);
             head = head.next;

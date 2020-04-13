@@ -1,6 +1,6 @@
 package main.codeStudy;
 
-import main.sort.ListNode;
+import main.sort.SingleNode;
 
 /**
  * @program: java-code-study
@@ -14,27 +14,27 @@ public class CombineNListNode {
     }
 
     public static void pre() {
-        ListNode[] lists = new ListNode[3];
-        ListNode one = new ListNode(0);
-        ListNode two = new ListNode(1);
-        ListNode three = new ListNode(2);
+        SingleNode[] lists = new SingleNode[3];
+        SingleNode one = new SingleNode(0);
+        SingleNode two = new SingleNode(1);
+        SingleNode three = new SingleNode(2);
         lists[0] = one;
         lists[1] = two;
         lists[2] = three;
         for (int i = 0; i < 3; i++) {
             int index = i % 3;
-            lists[index].next = new ListNode(i);
+            lists[index].next = new SingleNode(i);
             lists[index] = lists[index].next;
         }
-        ListNode[] paramList = new ListNode[3];
+        SingleNode[] paramList = new SingleNode[3];
         paramList[0] = one;
         paramList[1] = two;
         paramList[2] = three;
-        ListNode res = mergeKLists(paramList);
+        SingleNode res = mergeKLists(paramList);
         System.out.println("===");
     }
 
-    public static ListNode mergeKLists(ListNode[] lists) {
+    public static SingleNode mergeKLists(SingleNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
         }
@@ -48,8 +48,8 @@ public class CombineNListNode {
         if (lists.length == 1) {
             return lists[0];
         }
-        ListNode head = new ListNode();
-        ListNode root = head;
+        SingleNode head = new SingleNode();
+        SingleNode root = head;
         int index = 0;
         while (true) {
             for (int i = 0; i < lists.length; i++) {
@@ -66,15 +66,15 @@ public class CombineNListNode {
             if (!hasNext(lists)) {
                 break;
             }
-            root.next = new ListNode();
+            root.next = new SingleNode();
             root = root.next;
 
         }
         return head;
     }
 
-    public static boolean hasNext(ListNode[] lists) {
-        for (ListNode listNode : lists) {
+    public static boolean hasNext(SingleNode[] lists) {
+        for (SingleNode listNode : lists) {
             if (listNode != null) {
                 return true;
             }
