@@ -6,13 +6,13 @@ package main.sort;
  * @author: zijie.zeng
  * @create: 2020-04-06 22:25
  */
-public class SingleNode {
+public class ListNode {
     public int val;
-    public SingleNode next;
-    public SingleNode() {
+    public ListNode next;
+    public ListNode() {
 
     }
-    public SingleNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
@@ -21,11 +21,11 @@ public class SingleNode {
      * @param arrays
      * @return
      */
-    public static SingleNode createListNode(Integer[] arrays) {
-        SingleNode root = new SingleNode();
-        SingleNode head = root;
+    public static ListNode createListNode(Integer[] arrays) {
+        ListNode root = new ListNode();
+        ListNode head = root;
         for (Integer array : arrays) {
-            head.next = new SingleNode(array);
+            head.next = new ListNode(array);
             head = head.next;
         }
         return root.next;
@@ -36,13 +36,13 @@ public class SingleNode {
      * @param root
      * @return
      */
-    public static SingleNode reverseListNode(SingleNode root) {
+    public static ListNode reverseListNode(ListNode root) {
         if (root == null) {
             return null;
         }
-        SingleNode head = null;
+        ListNode head = null;
         while (true) {
-            SingleNode mid = root.next;
+            ListNode mid = root.next;
             root.next = head;
             head = root;
             root = mid;
@@ -58,18 +58,18 @@ public class SingleNode {
      * @param root
      * @return
      */
-    public static SingleNode reverseListNode(SingleNode root, int start, int end) {
+    public static ListNode reverseListNode(ListNode root, int start, int end) {
         //用于操作
-        SingleNode head = new SingleNode();
+        ListNode head = new ListNode();
         head.next = root;
         //用于返回
-        SingleNode res = head;
+        ListNode res = head;
         for (int i=1; i<start; i++) {
             head = head.next;
         }
-        SingleNode tailNode = head.next;
+        ListNode tailNode = head.next;
         for (int i=start; i<end; i++) {
-            SingleNode exNode = tailNode.next;
+            ListNode exNode = tailNode.next;
             if (exNode==null) {
                 break;
             }
@@ -80,14 +80,14 @@ public class SingleNode {
         return res.next;
     }
 
-    public static SingleNode moveListNode(SingleNode root, int num) {
+    public static ListNode moveListNode(ListNode root, int num) {
         if (root==null || num==0) {
             return root;
         }
 
         //查询链表长度
         int count = 1;
-        SingleNode head = root;
+        ListNode head = root;
         while (head.next!=null) {
             head = head.next;
             count++;

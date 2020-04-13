@@ -1,6 +1,6 @@
 package main.codeStudy;
 
-import main.sort.SingleNode;
+import main.sort.ListNode;
 
 /**
  * @program: java-code-study
@@ -15,29 +15,29 @@ public class ReverseBetweenListNode {
         preFun();
     }
 
-    public static SingleNode preFun() {
-        SingleNode head = new SingleNode(1);
-        SingleNode mid = head;
+    public static ListNode preFun() {
+        ListNode head = new ListNode(1);
+        ListNode mid = head;
         for (int i=2; i<6; i++) {
-            mid.next = new SingleNode(i);
+            mid.next = new ListNode(i);
             mid = mid.next;
         }
         //ListNode n =  reverseBetween(head, 2, 4);
-        SingleNode n = answer(head, 2, 4);
+        ListNode n = answer(head, 2, 4);
         return n;
     }
 
 
-    public static SingleNode answer(SingleNode head, int m, int n) {
-        SingleNode dummy = new SingleNode(0);
+    public static ListNode answer(ListNode head, int m, int n) {
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
-        SingleNode pre = dummy;
+        ListNode pre = dummy;
         for(int i = 1; i < m; i++){
             pre = pre.next;
         }
         head = pre.next;
         for(int i = m; i < n; i++){
-            SingleNode nex = head.next;
+            ListNode nex = head.next;
             head.next = nex.next;
             nex.next = pre.next;
             pre.next = nex;

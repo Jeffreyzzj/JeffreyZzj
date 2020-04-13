@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e163a284-14f9-46d6-90e3-8eeee8e9592a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/codeStudy/ReSortNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/codeStudy/CombineNListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/CombineNListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/codeStudy/NodeHasCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/NodeHasCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/codeStudy/ReverseBetweenListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/codeStudy/ReverseBetweenListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/otherStudy/TestStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/otherStudy/TestStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sort/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sort/SingleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sort/SingleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/sort/ListNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestStudy">
+  <component name="RunManager" selected="Application.ReSortNode">
     <configuration name="ChangTingKeJiLogProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.codeStudy.ChangTingKeJiLogProcess" />
       <module name="java-code-study" />
@@ -81,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DPQuestionPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.codeStudy.DPQuestionPackage" />
+    <configuration name="NodeHasCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.codeStudy.NodeHasCircle" />
       <module name="java-code-study" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeHasCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.codeStudy.NodeHasCircle" />
+    <configuration name="ReSortNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.codeStudy.ReSortNode" />
       <module name="java-code-study" />
       <extension name="coverage">
         <pattern>
@@ -135,18 +136,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ChangTingKeJiLogProcess" />
-      <item itemvalue="Application.DPQuestionPackage" />
       <item itemvalue="Application.NodeHasCircle" />
       <item itemvalue="Application.SpiralMatrixLeetCode" />
       <item itemvalue="Application.TestStudy" />
+      <item itemvalue="Application.ReSortNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReSortNode" />
         <item itemvalue="Application.TestStudy" />
         <item itemvalue="Application.ChangTingKeJiLogProcess" />
         <item itemvalue="Application.SpiralMatrixLeetCode" />
         <item itemvalue="Application.NodeHasCircle" />
-        <item itemvalue="Application.DPQuestionPackage" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +178,7 @@
       <workItem from="1585461577475" duration="4399000" />
       <workItem from="1585476923812" duration="59377000" />
       <workItem from="1586352494058" duration="214000" />
-      <workItem from="1586432591863" duration="36605000" />
+      <workItem from="1586432591863" duration="39980000" />
     </task>
     <servers />
   </component>
@@ -262,12 +263,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>184</line>
+          <line>187</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>186</line>
+          <line>189</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -287,7 +288,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>121</line>
+          <line>124</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -307,17 +308,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>81</line>
+          <line>84</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>46</line>
+          <line>49</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>74</line>
+          <line>77</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -378,8 +379,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/otherStudy/TestStudy.java</url>
-          <line>31</line>
+          <line>34</line>
           <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/sort/ListNode.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/codeStudy/ReSortNode.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/codeStudy/ReSortNode.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/codeStudy/ReSortNode.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="180" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -387,6 +408,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_code_study$WangyiShenQiShu.ic" NAME="WangyiShenQiShu Coverage Results" MODIFIED="1578241584471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.niuke.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_code_study$ReSortNode.ic" NAME="ReSortNode Coverage Results" MODIFIED="1586781600369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.codeStudy.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/java_code_study$TestStudy.ic" NAME="TestStudy Coverage Results" MODIFIED="1586772057098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.otherStudy.*</FILTER>
