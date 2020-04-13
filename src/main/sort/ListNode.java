@@ -15,6 +15,12 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
+
+    /**
+     * @description 创建链表
+     * @param arrays
+     * @return
+     */
     public static ListNode createListNode(Integer[] arrays) {
         ListNode root = new ListNode();
         ListNode head = root;
@@ -29,17 +35,15 @@ public class ListNode {
             return null;
         }
         ListNode head = null;
-        ListNode ex = root;
         while (true) {
-            ListNode mid = ex.next;
-            ex.next = head;
-            head = ex;
-            ex = mid;
-            if (ex==null) {
+            ListNode mid = root.next;
+            root.next = head;
+            head = root;
+            root = mid;
+            if (root==null) {
                 break;
             }
         }
         return head;
-
     }
 }
