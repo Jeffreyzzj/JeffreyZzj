@@ -1,4 +1,4 @@
-package main.niuke;
+package main.codeStudy;
 
 /**
  * @program: java-code-study

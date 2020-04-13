@@ -1,4 +1,4 @@
-package main.niuke;
+package main.codeStudy;
 
 import main.sort.ListNode;
 

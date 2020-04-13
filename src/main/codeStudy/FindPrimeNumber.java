@@ -1,9 +1,8 @@
-package main.niuke;
+package main.codeStudy;
 
 import main.designModel.Utils.ArrayUtil;
 import main.designModel.Utils.PrimeNumber;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

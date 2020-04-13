@@ -17,11 +17,13 @@ import java.util.stream.Stream;
  */
 public class TestStudy {
     public static void main(String[] args) {
-        Integer[] arrays = {0, 1, 2};
-        ListNode listNode = ListNode.createListNode(arrays);
-        ListNode rootNode = rotateRight(listNode, 4);
-        //ListNode rootNode = answer(listNode, 2);
-        System.out.println("===");
+        testReverseListNode();
+    }
+    public static void testReverseListNode() {
+        Integer[] arrays = {1,2,3,4,5};
+        ListNode root = ListNode.createListNode(arrays);
+        root = ListNode.reverseListNode(root);
+        System.out.println();
     }
 
     public static ListNode answer(ListNode head, int k) {

@@ -24,4 +24,22 @@ public class ListNode {
         }
         return root.next;
     }
+    public static ListNode reverseListNode(ListNode root) {
+        if (root == null) {
+            return null;
+        }
+        ListNode head = null;
+        ListNode ex = root;
+        while (true) {
+            ListNode mid = ex.next;
+            ex.next = head;
+            head = ex;
+            ex = mid;
+            if (ex==null) {
+                break;
+            }
+        }
+        return head;
+
+    }
 }

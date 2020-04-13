@@ -1,4 +1,4 @@
-package main.niuke;
+package main.codeStudy;
 
 import java.util.ArrayList;
 import java.util.Collections;

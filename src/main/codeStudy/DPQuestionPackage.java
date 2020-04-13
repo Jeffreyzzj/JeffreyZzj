@@ -1,6 +1,4 @@
-package main.niuke;
-
-import java.util.Map;
+package main.codeStudy;
 
 /**
  * @program: java-code-study
