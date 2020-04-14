@@ -68,7 +68,6 @@ public class GuiBingSortFun {
      * @description 将数组拆分
      */
     public static void fenArray(int[] array) {
-        List<List<Integer>> fenList = new ArrayList<>();
         if (array.length > 0) {
             int index = 0;
             while (index < array.length) {

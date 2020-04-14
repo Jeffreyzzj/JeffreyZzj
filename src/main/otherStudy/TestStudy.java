@@ -6,6 +6,9 @@ import main.sort.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Supplier;
 import java.util.stream.Stream;
 
 /**
@@ -16,10 +19,19 @@ import java.util.stream.Stream;
  */
 public class TestStudy {
     public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
-
-        testListNode();
+        /*testListNode(1, "A");
+        testListNode("a", 2);*/
+        testQueue();
     }
+
+    public static void testQueue() {
+        Integer[] arr = {1,2,3,4,5,6,7,9};
+        TreeNode root = TreeNode.createTreeNode(arr);
+
+        List<Integer> res = TreeNode.breadConversion(root);
+        System.out.println();
+    }
+
     public static void testListNode() {
         Integer[] arrays = {1,2,3,4,5};
         ListNode root = ListNode.createListNode(arrays);
@@ -33,6 +45,12 @@ public class TestStudy {
         ListNode res = ListNode.moveListNode(root, 5);
 
         System.out.println();
+    }
+    public static void testListNode(int a, String b) {
+
+    }
+    public static void testListNode(String b, int a) {
+
     }
 
     public static ListNode answer(ListNode head, int k) {

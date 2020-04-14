@@ -209,4 +209,26 @@ public class TreeNode {
         return flagIndex;
     }
 
+    public static List<Integer> breadConversion(TreeNode root) {
+
+        QueueUtil queue = new QueueUtil();
+        if (root==null) {
+            return null;
+        } else {
+            queue.push(root);
+        }
+        List<Integer> res = new ArrayList<>();
+
+        while (!queue.isEmpty()) {
+            TreeNode head = (TreeNode)queue.pop();
+            if (head==null) {
+                continue;
+            }
+            res.add(head.val);
+            queue.push(head.left);
+            queue.push(head.right);
+        }
+        return res;
+    }
+
 }
