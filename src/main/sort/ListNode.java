@@ -15,6 +15,9 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
+    public int getVal() {
+        return val;
+    }
 
     /**
      * @description 创建链表

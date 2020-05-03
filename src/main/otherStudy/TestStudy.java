@@ -6,9 +6,11 @@ import main.sort.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -21,7 +23,36 @@ public class TestStudy {
     public static void main(String[] args) {
         /*testListNode(1, "A");
         testListNode("a", 2);*/
-        testQueue();
+        List<ListNode> res = new ArrayList<>();
+
+        String str = "abc";
+        String str1 = "abc";
+        String str2 = new String("abc");
+        String str3 = new String("abc");
+        System.out.println(str==str1);
+        System.out.println(str1==str2);
+        System.out.println(str1==str3);
+        System.out.println("===");
+
+        Integer i1 = 1000;
+        Integer i2 = 1000;
+        Integer i3 = new Integer(1000);
+        Integer i4 = new Integer(1000);
+        System.out.println(i1==i2);
+        System.out.println(i1==i3);
+        System.out.println(i3==i4);
+        System.out.println("===");
+
+        Integer ii1 = 127;
+        Integer ii2 = 127;
+        Integer ii3 = new Integer(127);
+        Integer ii4 = new Integer(127);
+        System.out.println(ii1==ii2);
+        System.out.println(ii1==ii3);
+        System.out.println(ii3==ii4);
+
+
+        //testQueue();
     }
 
     public static void testQueue() {
@@ -45,12 +76,6 @@ public class TestStudy {
         ListNode res = ListNode.moveListNode(root, 5);
 
         System.out.println();
-    }
-    public static void testListNode(int a, String b) {
-
-    }
-    public static void testListNode(String b, int a) {
-
     }
 
     public static ListNode answer(ListNode head, int k) {

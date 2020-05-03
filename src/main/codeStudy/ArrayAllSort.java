@@ -53,4 +53,10 @@ public class ArrayAllSort {
         }
 
     }
+    /*
+    https://job.bytedance.com/referral/pc/position/detail/6798465717508245767?token=MjsxNTg0Njk2MTk0NTYxOzY3MDc5ODczOTc3MTM0OTU1NjY7NjgwNjIxNzYzMTA0NzI4OTEwMQ
+    https://job.bytedance.com/referral/pc/position/detail/6797589675021175048?token=MjsxNTg0Njk2MTk0NTYxOzY3MDc5ODczOTc3MTM0OTU1NjY7NjgwNjIxNzYzMTA0NzI4OTEwMQ
+    https://job.bytedance.com/referral/pc/position/detail/6797274319446608135?token=MjsxNTg0Njk2MTk0NTYxOzY3MDc5ODczOTc3MTM0OTU1NjY7NjgwNjIxNzYzMTA0NzI4OTEwMQ
+    https://job.bytedance.com/referral/pc/position/detail/6797326519111780615?token=MjsxNTg0Njk2MTk0NTYxOzY3MDc5ODczOTc3MTM0OTU1NjY7NjgwNjIxNzYzMTA0NzI4OTEwMQ
+     */
 }
