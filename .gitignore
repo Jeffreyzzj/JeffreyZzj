@@ -55,5 +55,6 @@ Thumbs.db
 # father to git
 recommend-consumer/target/
 recommend-provider/target/
+out
 
 
